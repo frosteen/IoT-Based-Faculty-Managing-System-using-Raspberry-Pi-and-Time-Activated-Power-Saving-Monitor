@@ -7,6 +7,10 @@ A faculty managing system is used to track the attendance of the professors as w
 * For the PPT presentation, you can further check [Final-Presentation.pptx](./Final-Presentation.pptx)
 * For the Graphical User Interface design, you can further check [Screenshots](./Screenshots/)
 
+## Built-with
+1. Python
+1. Raspberry Pi 3B
+
 ## Libraries
 ```python
 # Requires Python>=3.7.8
