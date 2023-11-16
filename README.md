@@ -29,7 +29,7 @@ json
 ## Installation
 *Must be installed in Raspberry Pi
 1. pip3 install -r requirements.txt
-1. python3 [RunProgram.py](./Program/RunProgram.py)
+1. python3 [MainMenu.py](./Program/MainMenu.py)
 
 ## Introduction
 Students who looks for professors happens inevitably. Students don’t know their whereabouts, one option they have is to look for the schedule posted outside the EECE Department, however, if they are not found in the room of their respective class or don’t have a class at that time, the only option left for students is to ask for them in the EECE Department. Doing that leads to disruption of faculty members who are busy doing their work. Sometimes, they don’t even find the answer even if they ask. The researchers are addressing to the problems of knowing if a faculty member is in the campus through the development of the research “IOT Based Faculty Managing System using Raspberry Pi with Distance and Time Activated Power Saving Monitor”.
