@@ -96,6 +96,26 @@ In order to improve the study much further, the researchers recommend making an 
 [3] Walid Zaramdini, An empirical study of the motives and benefits of ISO 9000 certification: the UAE experience, International Journal of Quality &Reliability Management, Vol. 24 No. 5, 2007 pp. 472-491. Retrieved from http://www.ukessays.com/essays/management/literaturereview-about-management-information-systemsmanagement-essay.php.<br>
 [4] S. R. Bharamagoudar, Geeta R.B.2, S. G. Totad Assistant Professor, Dept. of Electronics & Communication Engg, Basaveshwar Engg. College, Bagalkot, Karnataka1Associate professor, Department of IT, GMR Institute of Technology, RAJAM, Andhra Pradesh2Professor, Department of Computer Science & Engineering, GMR Institute of Technology, RAJAM, Andhra Pradesh 3.<br>
 
+## GUI Design
+* **MainMenuUI**
+![MainMenuUI.png](./Screenshots/MainMenuUI.png)
+* **StudentUI**
+![StudentUI.png](./Screenshots/StudentUI.png)
+* **FacultyUI**
+![FacultyUI.png](./Screenshots/FacultyUI.png)
+* **DatabaseUI**
+![DatabaseUI.png](./Screenshots/DatabaseUI.png)
+* **AttendanceAnnouncementUI**
+![AttendanceAnnouncementUI.png](./Screenshots/AttendanceAnnouncementUI.png)
+* **SecretaryAnnouncementUI**
+![SecretaryAnnouncementUI.png](./Screenshots/SecretaryAnnouncementUI.png)
+* **AuthenticationUI**
+![AuthenticationUI.png](./Screenshots/AuthenticationUI.png)
+* **EditTimeUI**
+![EditTimeUI.png](./Screenshots/EditTimeUI.png)
+* **RegisterUI**
+![RegisterUI.png](./Screenshots/RegisterUI.png)
+
 ## Tip
 **If you like my hard work, I would appreciate it if you could buy some coffee for me.**
 
