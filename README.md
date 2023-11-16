@@ -59,6 +59,10 @@ Lastly, the researchers tested the reliability of the data transmission of the A
 ## Recommendation
 In order to improve the study much further, the researchers recommend making an application that can be used by IOS users, because the application we made is only accessible for devices that has an Android Operating System. The researchers also recommend making use of touch screen monitor instead, to lessen the hardware used.
 
+## Contributors
+1. Luis Daniel Pambid - Programmer
+2. Trina Ritchell Aquino - Documentation
+
 ## References
 [1] ISO 10014:2006 Quality Management – Guidelines for realizing financial and economic benefits. – International standard. Retrieved from http://www.iso.org/iso/catalogue_detail.<br>
 [2] Hesham Magd and Adrienne Curry, TQM in Egypt: a case study, An empirical analysis of management attitudes towards ISO 9001:2000 in Egypt, The TQM Magazine, Volume 15 · Number 6 · 2003 · pp. 381-390<br>
