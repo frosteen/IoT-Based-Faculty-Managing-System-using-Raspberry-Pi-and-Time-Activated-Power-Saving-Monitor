@@ -5,63 +5,63 @@ from PyQt4.QtCore import *
 from firebase import firebase
 import datetime
 import time
-#import RPi.GPIO as GPIO
-import threading
+import RPi.GPIO as GPIO
 import json, ast
+import threading
 
-##def runProgram():
-##    try:
-##        GPIO.setmode(GPIO.BOARD)
-##        GPIO.setwarnings(False)
-##
-##        timeToOff = 120 #120 SECONDS
-##        PIN_TRIGGER = 7
-##        PIN_ECHO = 11
-##        PIN_RELAY = 16
-##
-##        GPIO.setup(PIN_TRIGGER, GPIO.OUT)
-##        GPIO.setup(PIN_ECHO, GPIO.IN)
-##        GPIO.setup(PIN_RELAY, GPIO.OUT)
-##
-##        GPIO.output(PIN_TRIGGER, GPIO.LOW)
-##
-##        time.sleep(2)
-##
-##        while 1:
-##            GPIO.output(PIN_TRIGGER, GPIO.HIGH)
-##
-##            time.sleep(0.00001)
-##
-##            GPIO.output(PIN_TRIGGER, GPIO.LOW)
-##
-##            while GPIO.input(PIN_ECHO) == 0:
-##                pulse_start_time = time.time()
-##            while GPIO.input(PIN_ECHO) == 1:
-##                pulse_end_time = time.time()
-##
-##            pulse_duration = pulse_end_time - pulse_start_time
-##            distance = round(pulse_duration * 17150 * 0.393701, 2)
-##            if distance <= 24: #24in Distance (2 RULERS)
-##                GPIO.output(PIN_RELAY, GPIO.HIGH)
-##                time.sleep(timeToOff)
-##            else:
-##                GPIO.output(PIN_RELAY, GPIO.LOW)
-##                time.sleep(0.001)
-##
-##    except KeyboardInterrupt:
-##        print("Program exits.")
-##
-##    finally:
-##        GPIO.cleanup()
-##
-##th = threading.Thread(target=runProgram)
-##th.daemon = True
-##th.start()
+def runProgram():
+   try:
+       GPIO.setmode(GPIO.BOARD)
+       GPIO.setwarnings(False)
 
-#GPIO.setmode(GPIO.BOARD)
-#GPIO.setwarnings(False)
-#PINBUZZER = 18
-#GPIO.setup(PINBUZZER, GPIO.OUT)
+       timeToOff = 120 #120 SECONDS
+       PIN_TRIGGER = 7
+       PIN_ECHO = 11
+       PIN_RELAY = 16
+
+       GPIO.setup(PIN_TRIGGER, GPIO.OUT)
+       GPIO.setup(PIN_ECHO, GPIO.IN)
+       GPIO.setup(PIN_RELAY, GPIO.OUT)
+
+       GPIO.output(PIN_TRIGGER, GPIO.LOW)
+
+       time.sleep(2)
+
+       while 1:
+           GPIO.output(PIN_TRIGGER, GPIO.HIGH)
+
+           time.sleep(0.00001)
+
+           GPIO.output(PIN_TRIGGER, GPIO.LOW)
+
+           while GPIO.input(PIN_ECHO) == 0:
+               pulse_start_time = time.time()
+           while GPIO.input(PIN_ECHO) == 1:
+               pulse_end_time = time.time()
+
+           pulse_duration = pulse_end_time - pulse_start_time
+           distance = round(pulse_duration * 17150 * 0.393701, 2)
+           if distance <= 24: #24in Distance (2 RULERS)
+               GPIO.output(PIN_RELAY, GPIO.HIGH)
+               time.sleep(timeToOff)
+           else:
+               GPIO.output(PIN_RELAY, GPIO.LOW)
+               time.sleep(0.001)
+
+   except KeyboardInterrupt:
+       print("Program exits.")
+
+   finally:
+       GPIO.cleanup()
+
+th = threading.Thread(target=runProgram)
+th.daemon = True
+th.start()
+
+GPIO.setmode(GPIO.BOARD)
+GPIO.setwarnings(False)
+PINBUZZER = 18
+GPIO.setup(PINBUZZER, GPIO.OUT)
 
 database = firebase.FirebaseApplication('https://mapuafacultymanagingsystem.firebaseio.com/', authentication=None)
 directory = ''
