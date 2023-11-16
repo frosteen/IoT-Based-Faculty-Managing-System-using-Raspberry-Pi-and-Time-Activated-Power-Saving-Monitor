@@ -9,7 +9,7 @@ A faculty managing system is used to track the attendance of the professors as w
 
 ## Libraries
 ```python
-# Requires Python>=3.78
+# Requires Python>=3.7.8
 pyqt4
 python-firebase # depreciated library
 requests
