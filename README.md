@@ -84,7 +84,7 @@ In order to improve the study much further, the researchers recommend making an 
 
 ## Contributors
 1. Luis Daniel Pambid - Programmer
-2. Trina Ritchell Aquino - Documentation
+2. Trina Ritchell Aquino - Documentation/Design
 
 ## References
 [1] ISO 10014:2006 Quality Management – Guidelines for realizing financial and economic benefits. – International standard. Retrieved from http://www.iso.org/iso/catalogue_detail.<br>
