@@ -1,6 +1,10 @@
 # IoT-Based Faculty Managing System using Raspberry Pi and Time Activated Power Saving Monitor
 A faculty managing system is used to track the attendance of the professors as well as the convenience for the students in knowing their consultation time. In our system, Internet of Things is implemented wherein professors can communicate outside the school/university.
 
+## Contributors
+1. Luis Daniel Pambid - Programmer
+2. Trina Ritchell Aquino - Documentation/Design
+
 ## For Additional Info
 * For more additional info about this project, you can further check [Final-Document.docx](./Final-Document.docx)
 * For the Users Manual, you can further check [Users-Manual.docx](./Users-Manual.docx)
@@ -85,10 +89,6 @@ Lastly, the researchers tested the reliability of the data transmission of the A
 
 ## Recommendation
 In order to improve the study much further, the researchers recommend making an application that can be used by IOS users, because the application we made is only accessible for devices that has an Android Operating System. The researchers also recommend making use of touch screen monitor instead, to lessen the hardware used.
-
-## Contributors
-1. Luis Daniel Pambid - Programmer
-2. Trina Ritchell Aquino - Documentation/Design
 
 ## References
 [1] ISO 10014:2006 Quality Management – Guidelines for realizing financial and economic benefits. – International standard. Retrieved from http://www.iso.org/iso/catalogue_detail.<br>
