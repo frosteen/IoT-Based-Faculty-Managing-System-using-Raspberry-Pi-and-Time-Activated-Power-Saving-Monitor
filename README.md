@@ -3,7 +3,29 @@ A faculty managing system is used to track the attendance of the professors as w
 
 ## For Additional Info
 * For more additional info about this project, you can further check [Final-Document.docx](./Final-Document.docx).
+* For the Users Manual, you can further check [Users-Manual.docx](./Users-Manual.docx)
+* For the PPT presentation, you can further check [Final-Presentation.pptx](./Final-Presentation.pptx).
 * For the Graphical User Interface design, you can further check [Screenshots](./Screenshots/).
+
+## Libraries
+```python
+# Requires Python>=3.78
+pyqt4
+python-firebase # depreciated library
+requests
+json
+```
+
+## Hardware Requirements
+1. Raspberry Pi 3B
+1. Monitor with HDMI
+1. Keyboard
+1. Mouse
+
+## Installation
+*Must be installed in Raspberry Pi
+1. pip3 install -r requirements.txt
+1. python3 [RunProgram.py](./Program/RunProgram.py)
 
 ## Introduction
 Students who looks for professors happens inevitably. Students don’t know their whereabouts, one option they have is to look for the schedule posted outside the EECE Department, however, if they are not found in the room of their respective class or don’t have a class at that time, the only option left for students is to ask for them in the EECE Department. Doing that leads to disruption of faculty members who are busy doing their work. Sometimes, they don’t even find the answer even if they ask. The researchers are addressing to the problems of knowing if a faculty member is in the campus through the development of the research “IOT Based Faculty Managing System using Raspberry Pi with Distance and Time Activated Power Saving Monitor”.
