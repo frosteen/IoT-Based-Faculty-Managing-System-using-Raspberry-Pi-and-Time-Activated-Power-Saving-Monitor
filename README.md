@@ -2,10 +2,10 @@
 A faculty managing system is used to track the attendance of the professors as well as the convenience for the students in knowing their consultation time. In our system, Internet of Things is implemented wherein professors can communicate outside the school/university.
 
 ## For Additional Info
-* For more additional info about this project, you can further check [Final-Document.docx](./Final-Document.docx).
+* For more additional info about this project, you can further check [Final-Document.docx](./Final-Document.docx)
 * For the Users Manual, you can further check [Users-Manual.docx](./Users-Manual.docx)
-* For the PPT presentation, you can further check [Final-Presentation.pptx](./Final-Presentation.pptx).
-* For the Graphical User Interface design, you can further check [Screenshots](./Screenshots/).
+* For the PPT presentation, you can further check [Final-Presentation.pptx](./Final-Presentation.pptx)
+* For the Graphical User Interface design, you can further check [Screenshots](./Screenshots/)
 
 ## Libraries
 ```python
